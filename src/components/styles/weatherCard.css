@@ -12,6 +12,33 @@
 {
     font-size: 2.5rem;
 }
+.weather_form
+{
+    display: flex;
+    gap: 10px;
+}
+.weather_form input
+{
+    text-align: center;
+    border-radius: 5px;
+    border: solid rgb(18, 93, 122);
+}
+.form_btn
+{
+    padding: 3px 6px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: rgb(18, 93, 122);
+    transition: transform .25s,
+                box-shadow  .25s;
+}
+.form_btn:hover
+{
+    transform: scale(1.1);
+    box-shadow: -2px 2px 5px  black;
+    transition: transform .25s,
+                box-shadow  .25s;
+}
 .weather_city
 {
     font-size: 1.25rem;
@@ -49,7 +76,6 @@
     color: aliceblue;
     padding: 5px 15px;
     border-radius: 10px;
-    cursor: pointer;
     transition: transform .25s,
                 box-shadow  .25s;
 }
@@ -106,4 +132,5 @@
     .weather_temp {
         font-size: 1.5rem;
     }
+    
 }

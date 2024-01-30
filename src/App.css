@@ -29,6 +29,7 @@ button
   display: inline-block;
   border: none;
   font-family: inherit;
+  cursor: pointer;
 }
 ul
 {
@@ -49,8 +50,12 @@ ul
   
   body
   {
-  margin: 0 auto;
-  position: relative;      
-  min-width: 1024px;
+    margin: 0 auto;
+    position: relative;      
+    min-width: 1024px;
   } 
+  .app
+  {
+    z-index: 2;
+  }
 }
