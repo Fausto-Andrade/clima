@@ -12,7 +12,6 @@ function App() {
   
   
   const success = position => {
-    // console.log(position);
     const obj = {
       lat: position.coords.latitude,
       lon: position.coords.longitude,
